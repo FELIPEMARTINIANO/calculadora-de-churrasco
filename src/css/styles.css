@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif, helvetica;
+    background-image: url('../imagens/churrasqueira.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(62, 59, 59, 0.71);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 300px rgba(249, 173, 50, 0.718);
+    width: 300px;
+    border: solid 1px rgb(253, 216, 96);
+    
+}
+
+h1{
+    text-align: center;
+    color: white; 
+    font-size: 30px;  
+}
+
+.input {
+    margin-bottom: 14px;
+    }
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: white;
+    font-size: 17px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 204, 36);
+    border-radius: 5px;
+}
+
+button {
+    width: 31%;
+    padding: 7px;
+    background-color: #7d6b3d;
+    border: solid 1px rgb(253, 216, 96);
+    color: rgb(245, 245, 245);
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 17px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+button:hover {
+    background-color: #715b1e;
+    color: rgb(255, 204, 36);
+}
+
+#resultado {
+    margin-top: 14px;
+    font-size: 16px;
+}
